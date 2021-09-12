@@ -1,0 +1,28 @@
+.parent {
+   position: relative;
+   left: 200vh;
+   background: red;
+}
+
+.child-one {
+    position: sticky;
+  top: 0;
+  right: 0;
+    color: brown;
+    background-color: chartreuse;
+}
+
+.child-two { 
+    position: absolute;
+    top: 30px;
+    color: coral;
+    background-color: darkblue;
+}
+
+.child-three {
+    position: fixed;
+    top: 0;
+     right: 0;
+    color: darkred;
+    background-color: darksalmon;
+}
